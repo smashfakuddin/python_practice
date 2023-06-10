@@ -24,7 +24,7 @@ if name in name_list:
 else:
     print("Not Found!")
 
-sample code for if statement using codeblock
+# sample code for if statement using codeblock
 
 statement = False
 another_statement = False
