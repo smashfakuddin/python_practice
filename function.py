@@ -17,7 +17,7 @@ sum_number(5, 8)
 # function Exercise
 
 def names_list():
-    return "ash ", "jara" , "shahed"
+    return ["Ash ", "Jara" , "Shahed"]
 
 def greeting(n):
     return "%s is a Good boy Or girl" % n
@@ -28,3 +28,12 @@ def greeting_person():
         print(greeting(grt)) 
 
 greeting_person()
+
+
+
+# same output with for loop 
+
+n_list = ["Ash ", "Jara" , "Shahed"]
+
+for n in n_list:
+    print("%s is a good boy/girl" %n)
